@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: MyString
+  vendor: MyString
+  netSales: 1
+  date: MyString
+  tip: 1.5
+  tax: 1.5
+  fees: 1.5
+
+two:
+  id: MyString
+  vendor: MyString
+  netSales: 1
+  date: MyString
+  tip: 1.5
+  tax: 1.5
+  fees: 1.5

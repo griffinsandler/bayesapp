@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id:</strong>
+  <%= @transaction.id %>
+</p>
+
+<p>
+  <strong>Vendor:</strong>
+  <%= @transaction.vendor %>
+</p>
+
+<p>
+  <strong>Netsales:</strong>
+  <%= @transaction.netSales %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @transaction.date %>
+</p>
+
+<p>
+  <strong>Tip:</strong>
+  <%= @transaction.tip %>
+</p>
+
+<p>
+  <strong>Tax:</strong>
+  <%= @transaction.tax %>
+</p>
+
+<p>
+  <strong>Fees:</strong>
+  <%= @transaction.fees %>
+</p>
+
+<%= link_to 'Edit', edit_transaction_path(@transaction) %> |
+<%= link_to 'Back', transactions_path %>
